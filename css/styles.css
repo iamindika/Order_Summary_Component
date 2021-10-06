@@ -1,11 +1,15 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+html {
+  background-color: #fff;
+}
 body {
   margin: 0 auto;
   background-image: url("../images/pattern-background-desktop.svg");
   background-position: center top;
   background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
   width: 1440px;
 }
 header {
