@@ -75,6 +75,10 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+#subscription-container {
+  display: flex;
+  align-items: center;
+}
 .attribution { 
   font-size: 11px; 
   text-align: center; 
