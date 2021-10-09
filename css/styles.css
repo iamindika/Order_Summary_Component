@@ -77,6 +77,14 @@ main {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
 }
+#order-details button {
+  padding: 0;
+  border: none;
+  border-bottom: 2px solid hsl(245, 75%, 52%);
+  background-color:  hsl(225, 100%, 98%); /* Neutral - Very pale blue */;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
 #subscription-container {
   display: flex;
   align-items: center;
