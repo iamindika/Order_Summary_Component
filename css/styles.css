@@ -62,6 +62,19 @@ main {
   text-align: center;
   color:hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
 }
+#order-details {
+  width: 354px;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%); /* Neutral - Very pale blue */
+  border-radius: 10px;
+}
+#order-details form {
+  width: 306px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .attribution { 
   font-size: 11px; 
   text-align: center; 
