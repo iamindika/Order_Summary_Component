@@ -58,6 +58,7 @@ main {
   margin-bottom: 22px;
   height: 78px;
   font-family: 'Red Hat Display', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
   color:hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
@@ -100,6 +101,7 @@ main {
 #active-subscription p {
   margin: 0;
   color:hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
+  font-weight: 400;
 }
 #attribution {
   width: 354px;
@@ -116,5 +118,15 @@ main {
   font-size: 16px;
   color: #fff;
   border-radius: 10px;
-  box-shadow: 0 10px 20px hsl(224, 23%, 55%);
+  box-shadow: 0 10px 20px hsl(224, 23%, 55%);  /* Neutral - Desaturated blue */
+}
+#attribution button:last-child {
+  width: 97px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background-color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
 }
