@@ -116,6 +116,7 @@ main {
   background-color: hsl(245, 75%, 52%); /* Primary - Bright blue */
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
+  font-weight: 500;
   color: #fff;
   border-radius: 10px;
   box-shadow: 0 10px 20px hsl(224, 23%, 55%);  /* Neutral - Desaturated blue */
@@ -128,5 +129,6 @@ main {
   background-color: #fff;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
+  font-weight: 500;
   color: hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
 }
