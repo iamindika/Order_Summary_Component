@@ -80,9 +80,9 @@ main {
 #order-details button {
   padding: 0;
   border: none;
-  border-bottom: 2px solid hsl(245, 75%, 52%);
+  border-bottom: 2px solid hsl(245, 75%, 52%); /* Primary - Bright blue */
   background-color:  hsl(225, 100%, 98%); /* Neutral - Very pale blue */;
-  color: hsl(245, 75%, 52%);
+  color: hsl(245, 75%, 52%); /* Primary - Bright blue */
   font-weight: 700;
 }
 #subscription-container {
@@ -101,10 +101,20 @@ main {
   margin: 0;
   color:hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
 }
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
+#attribution {
+  width: 354px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+#attribution button:first-child {
+  margin: 32px 0;
+  padding: 13px 0;
+  border: none;
+  background-color: hsl(245, 75%, 52%); /* Primary - Bright blue */
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px hsl(224, 23%, 55%);
 }
