@@ -21,7 +21,7 @@ header {
   align-items: center;
   flex-direction: column;
 }
-#hero-banner {
+.banner {
   width: 100%;
   height: 220px;
   margin-top: 102px;
@@ -40,13 +40,13 @@ main {
   align-items: center;
   border-radius: 0 0 10px 10px;
 }
-#order-summary {
+.order-summary {
   width: 354px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#order-summary h1 {
+.order-summary h1 {
   margin-top: 50px;
   margin-bottom: 17px;
   height: 37px;
@@ -54,7 +54,7 @@ main {
   font-weight: 900;
   font-size: 26px;
 }
-#order-summary p {
+.order-summary p {
   margin-top: 0;
   margin-bottom: 22px;
   height: 78px;
@@ -64,13 +64,13 @@ main {
   text-align: center;
   color:hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
 }
-#order-details {
+.order-details {
   width: 354px;
   margin: 0 auto;
   background-color: hsl(225, 100%, 98%); /* Neutral - Very pale blue */
   border-radius: 10px;
 }
-#order-details form {
+.order-details form {
   width: 306px;
   margin: 25px auto;
   display: flex;
@@ -79,7 +79,7 @@ main {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
 }
-#order-details button {
+.order-details button {
   padding: 0;
   border: none;
   border-bottom: 2px solid hsl(245, 75%, 52%); /* Primary - Bright blue */
@@ -87,30 +87,30 @@ main {
   color: hsl(245, 75%, 52%); /* Primary - Bright blue */
   font-weight: 700;
 }
-#subscription-container {
+.subscription-container {
   display: flex;
   align-items: center;
   text-align: center;
 }
-#active-subscription { 
+.active-subscription { 
   margin-left: 20px;
 }
-#active-subscription h2 {
+.active-subscription h2 {
   margin: 0 0 5px 0;
   font-size: 16px;
 }
-#active-subscription p {
+.active-subscription p {
   margin: 0;
   color:hsl(224, 23%, 55%); /* Neutral - Desaturated blue */
   font-weight: 400;
 }
-#attribution {
+.attribution {
   width: 354px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-#attribution button:first-child {
+.attribution button:first-child {
   margin: 32px 0;
   padding: 13px 0;
   border: none;
@@ -122,7 +122,7 @@ main {
   border-radius: 10px;
   box-shadow: 0 10px 20px hsl(224, 23%, 55%);  /* Neutral - Desaturated blue */
 }
-#attribution button:last-child {
+.attribution button:last-child {
   width: 97px;
   margin: 0 auto;
   padding: 0;
