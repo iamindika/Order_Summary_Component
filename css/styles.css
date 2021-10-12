@@ -1,17 +1,13 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-html {
+/* html {
   background-color: #fff;
-}
+} */
 body {
-  margin: 0 auto;
-  background-image: url("../images/pattern-background-desktop.svg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-color: hsl(225, 100%, 94%); /* Primary - Pale Blue */
-  width: 1440px;
-  height: 900px;
+  margin: 0;
+  background: hsl(225, 100%, 94%) url("../images/pattern-background-desktop.svg") center top no-repeat;
+  height: 100vh;
 }
 header {
   margin: 0 auto;
